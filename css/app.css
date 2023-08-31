@@ -5,42 +5,47 @@
     box-sizing: border-box;
 }
 /*Title and paragraph*/
-.container ,footer {
+.container {
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .main-header {
     text-align: center;
-    background-color: brown;
-    padding: 50px;
-    
+    background-color: white;
 }
 
 h1 {
-    margin-bottom: 30px;
+    padding: 50px;
+}
+
+.main-header > p {
+    margin-bottom: 20px;
 }
 /*Main body with card*/
 .float-left{
     float: left;
 }
 
-.cards-container {
-    
-    
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-
+/*.cards-container {  
+}
+*/
+.main-body {
+    margin-bottom: 40px;
+}
 .body-card{
-    width: 310px ;
+    width: 320px ;
     height: 120px;
     margin-right: 40px;
     background-color: #0f0e17 ;
     color: white;
-    box-shadow:  5px  5px 2px #9c9c9c,
-                -5px -5px 2px #9c9c9c,
-                 5px -5px 2px #9c9c9c,
-                -5px  5px 2px #9c9c9c; 
+    box-shadow: 10px 10px 5px #9c9c9c
 }
 
 img{
@@ -53,20 +58,27 @@ img{
 }
 
 .name {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .professional-role {
+    font-size: 15px;
     color: yellow;
 }
 
 .email{
+    font-size: 16px;
     color: #4bacdf;
 }
 /*Final Part*/
 footer {
-    text-align: center;
     background-color: black;
-    color: white;
     padding: 50px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
 }
