@@ -1,5 +1,40 @@
+/*reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/*Title and paragraph*/
+.container ,footer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main-header {
+    text-align: center;
+    background-color: brown;
+    padding: 50px;
+    
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+/*Main body with card*/
+.img{
+    max-width: 100%;
+    
+}
+.body-card{
+    width: 300px ;
+    height: 120px;
+    background-color: red;
+
+}
+/*Final Part*/
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
 }
