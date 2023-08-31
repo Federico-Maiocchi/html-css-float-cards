@@ -21,6 +21,9 @@ h1 {
     margin-bottom: 30px;
 }
 /*Main body with card*/
+.float-left{
+    float: left;
+}
 .img{
     max-width: 100%;
     
