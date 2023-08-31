@@ -24,15 +24,44 @@ h1 {
 .float-left{
     float: left;
 }
-.img{
-    max-width: 100%;
+
+.cards-container {
+    
     
 }
-.body-card{
-    width: 300px ;
-    height: 120px;
-    background-color: red;
 
+
+.body-card{
+    width: 310px ;
+    height: 120px;
+    margin-right: 40px;
+    background-color: #0f0e17 ;
+    color: white;
+    box-shadow:  5px  5px 2px #9c9c9c,
+                -5px -5px 2px #9c9c9c,
+                 5px -5px 2px #9c9c9c,
+                -5px  5px 2px #9c9c9c; 
+}
+
+img{
+    width: 120px;
+    margin-right: 10px;
+}
+
+.name, .professional-role{
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.professional-role {
+    color: yellow;
+}
+
+.email{
+    color: #4bacdf;
 }
 /*Final Part*/
 footer {
