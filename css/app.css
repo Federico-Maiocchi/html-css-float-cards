@@ -10,6 +10,9 @@
     margin: 0 auto;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .main-header {
     text-align: center;
     background-color: white;
@@ -17,6 +20,10 @@
 
 h1 {
     padding: 50px;
+    font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #cb2f66;
 }
 
 .main-header > p {
@@ -40,9 +47,10 @@ h1 {
     margin-bottom: 40px;
 }
 .body-card{
-    width: 320px ;
+    /* width: 320px; */
+    width: calc((100% - 60px) / 3);
     height: 120px;
-    margin-right: 40px;
+    margin: 10px 10px;
     background-color: #0f0e17 ;
     color: white;
     box-shadow: 10px 10px 5px #9c9c9c
@@ -51,6 +59,10 @@ h1 {
 img{
     width: 120px;
     margin-right: 10px;
+}
+
+.user {
+    padding: 10px;
 }
 
 .name, .professional-role{
@@ -63,7 +75,6 @@ img{
 
 .professional-role {
     font-size: 15px;
-    color: yellow;
 }
 
 .email{
