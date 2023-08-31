@@ -11,6 +11,7 @@
 }
 
 body {
+    font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .main-header {
@@ -20,7 +21,8 @@ body {
 
 h1 {
     padding: 50px;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 50px;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #cb2f66;
@@ -40,9 +42,6 @@ h1 {
     clear: both;
 }
 
-/*.cards-container {  
-}
-*/
 .main-body {
     margin-bottom: 40px;
 }
@@ -83,7 +82,7 @@ img{
 }
 /*Final Part*/
 footer {
-    background-color: black;
+    background-color: #828282;
     padding: 50px;
 }
 
